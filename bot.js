@@ -13,6 +13,9 @@ client.on('message', message => {
   if (message.content === 'cock') {
     message.reply('ball');
   }
+  if (message.content === 'marry') {
+    message.reply('jake dorne');
+  }
 });
 
 
