@@ -10,6 +10,9 @@ client.on('message', message => {
   if (message.content === 'ping') {
     message.reply('pong');
   }
+  if (message.content === 'cock') {
+    message.reply('ball');
+  }
 });
 
 
